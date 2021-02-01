@@ -1,0 +1,28 @@
+@import 'bootstrap.min.css';
+@import "swiperjs";
+@import "variables";
+
+@import "mc-font/font";
+
+@import "layout/navigation";
+
+@import "pages/index";
+@import "pages/join";
+
+@import "components/cards";
+@import "components/buttons";
+@import "components/typographie";
+@import "components/general";
+@import "components/dropdown";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background-color: $brand-color-light;
+}
+
+
+

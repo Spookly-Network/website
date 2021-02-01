@@ -1,0 +1,10 @@
+.dropdown-menu {
+    border: none;
+    &.bg-dark {
+        li {
+            a {
+                //color: white;
+            }
+        }
+    }
+}

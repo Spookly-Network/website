@@ -1,0 +1,16 @@
+#app {
+    position: relative;
+    overflow: hidden;
+}
+
+.npc-hello {
+    position: absolute;
+    bottom: -3vh;
+    right: -21vw;
+    z-index: 1;
+    width: 50vw;
+
+    @media screen and (min-width: $grid-breakpoint-md) {
+        bottom: -15vh;
+    }
+}

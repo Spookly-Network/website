@@ -1,0 +1,174 @@
+.index- {
+    &header- {
+        &image {
+            background-blend-mode: multiply;
+            background: url("/images/backgrounds/lobby-01.png"), linear-gradient(180deg, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.5) 100%) top;
+            height: 30vh;
+            @media screen and (min-width: $grid-breakpoint-md) {
+                height: 50vh;
+            }
+            @media screen and (min-width: $grid-breakpoint-lg) {
+                height: 60vh;
+            }
+            @media screen and (min-width: $grid-breakpoint-xl) {
+                height: 70vh;
+            }
+
+        }
+
+        &text {
+            text-transform: uppercase;
+            font-weight: bold;
+            color: white;
+            bottom: 10vh;
+            font-size: 2rem;
+            @media screen and (min-width: $grid-breakpoint-md) {
+                font-size: 5rem;
+            }
+            @media screen and (min-width: $grid-breakpoint-lg) {
+                font-size: 5rem;
+            }
+
+            span {
+                color: $brand-color-light;
+            }
+        }
+
+        &cards {
+            margin-top: -10vh;
+        }
+    }
+
+    &section- {
+        &tmargin {
+            @media screen and (min-width: $grid-breakpoint-md) {
+                margin-top: 25vh;
+            }
+        }
+    }
+
+    &body- {
+        &headline {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 3.2rem;
+            color: white;
+            bottom: 10vh;
+            @media screen and (min-width: $grid-breakpoint-md) {
+                font-size: 5rem;
+            }
+        }
+    }
+}
+
+.slide- {
+    &knockknock, &bingo, &skywars {
+        overflow: hidden;
+        @media screen and (min-width: $grid-breakpoint-xl) {
+            overflow: unset;
+        }
+
+        h2, mark {
+            font-family: "Minecraft-Regular";
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        &:after {
+            content: "";
+            height: 100%;
+            position: absolute;
+            top: 0px;
+            width: 100vw;
+            background: url("/images/backgrounds/knockknock.png");
+            background-size: cover;
+            z-index: -1;
+
+            -webkit-filter: blur(5px);
+            -moz-filter: blur(5px);
+            -o-filter: blur(5px);
+            -ms-filter: blur(5px);
+            filter: blur(5px);
+        }
+
+        .slide-content {
+            > div {
+                z-index: 10;
+            }
+        }
+
+        img.map-screen {
+            position: absolute;
+            top: -14vh;
+            left: -25vw;
+            width: 63%;
+            z-index: 5;
+        }
+    }
+
+    &knockknock {
+        .slide-content {
+            img {
+                @media screen and (max-width: $grid-breakpoint-xl) {
+                    right: -95vw !important;
+                    width: 268%;
+                }
+            }
+        }
+    }
+
+    &bingo {
+        &:after {
+            background: url("/images/backgrounds/bingo.png");
+            background-size: cover;
+        }
+
+        .slide-content {
+            img {
+                @media screen and (max-width: $grid-breakpoint-xl) {
+                    right: -95vw !important;
+                    width: 268%;
+                }
+            }
+        }
+    }
+
+    &skywars {
+        &:after {
+            background: url("/images/backgrounds/skywars.png");
+            background-size: cover;
+        }
+
+        .slide-content {
+            img {
+                @media screen and (max-width: $grid-breakpoint-xl) {
+                    right: -95vw !important;
+                    width: 268%;
+                }
+            }
+        }
+    }
+}
+
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+    content: '\f060';
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+    content: '\f061';
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 300;
+    font-size: 2rem;
+
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: white;
+}
+
+.social-icon {
+    font-size: 1.3rem;
+    color: white;
+}

@@ -1,0 +1,41 @@
+.container-join {
+    background-image: url('../../assets/dirt.png');
+
+    .join-ip {
+        position: relative;
+        width: 100%;
+        font-family: "Minecraft-Regular";
+        height: 52px;
+        padding: 4px 14px;
+        margin-bottom: 30px;
+        border: 2px solid #a0a0a0;
+        background: #000;
+        font-size: 15px;
+        color: #fff;
+        line-height: 42px;
+        cursor: pointer;
+    }
+
+    .mc-button {
+        font-family: "Minecraft-Regular";
+        height: 40px;
+        background: url(../../assets/mc-button.png) repeat-x;
+        color: #fff;
+        text-align: center;
+        line-height: 32px;
+        font-size: 14px;
+        font-weight: 400;
+        text-shadow: 2px 2px 0 #383838;
+        margin-bottom: 8px;
+        border-right: 2px solid #000;
+        position: relative;
+        padding-left: 20%;
+        padding-right: 20%;
+        &:hover {
+            background-position: bottom left;
+            color: #ffff9b;
+            border-right: 2px solid #000;
+            line-height: 30px;
+        }
+    }
+}

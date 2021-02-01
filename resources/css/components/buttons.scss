@@ -1,0 +1,17 @@
+.btn {
+    font-weight: 600;
+    border-radius: 0;
+
+    &.btn-danger {
+        background-color: $brand-color-light;
+    }
+
+    &.btn-outline-danger {
+        color: $brand-color-light;
+        border-color: $brand-color-light;
+        &:hover {
+            color: white;
+            background-color: $brand-color-light;
+        }
+    }
+}
