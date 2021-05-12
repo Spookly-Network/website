@@ -30,3 +30,14 @@
         </div>
     </section>
 @endsection
+
+@section('script')
+    <script>
+        function copyIp() {
+          var copyText = document.getElementById("serverIp");
+          copyText.select();
+          copyText.setSelectionRange(0, 99999)
+          document.execCommand("copy");
+        }
+    </script>
+@endsection
