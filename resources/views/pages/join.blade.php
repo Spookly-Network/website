@@ -19,7 +19,7 @@
                     </div>
                     <div class="col-lg-5">
                         <h5>Server Adresse</h5>
-                        <input class="join-ip" data-clipboard-text="zayon.de" value="zayon.de" id="serverIp" readonly="">
+                        <input class="join-ip" data-clipboard-text="spookly.de" value="spookly.de" id="serverIp" readonly="">
                         <span class="ip-caret"></span>
                         <div class="join-buttons">
                             <a class="btn btn-block mc-button join-button" id="copiedBtn" onclick="if (!window.__cfRLUnblockHandlers) return false; copyIp()" href="#">Copy to clipboard</a>
