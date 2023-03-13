@@ -26,24 +26,30 @@
                         </a>
 
                         <ul class="dropdown-menu bg-dark text-white" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item nav-link bg-dark text-white" href="{{url('/gamemode/knock-knock')}}">Knock
+                            <li><a class="dropdown-item nav-link bg-dark text-white"
+                                   href="{{url('/gamemode/knock-knock')}}">Knock
                                     Knock</a></li>
-                            <li><a class="dropdown-item nav-link bg-dark text-white" href="{{url('/gamemode/bingo')}}">Bingo</a></li>
-                            <li><a class="dropdown-item nav-link bg-dark text-white" href="{{url('/gamemode/skywars')}}">Skywars</a></li>
+                            <li><a class="dropdown-item nav-link bg-dark text-white" href="{{url('/gamemode/bingo')}}">Bingo</a>
+                            </li>
+                            <li><a class="dropdown-item nav-link bg-dark text-white"
+                                   href="{{url('/gamemode/skywars')}}">Skywars</a></li>
                         </ul>
                     </div>
                 </li>
             </ul>
             <form class="d-flex justify-content-center align-items-center">
-                @if($status->online == true)
-                    <span class="online-players text-success pe-3">
-                        {{$status->players->online}} Spieler Online
-                    </span>
-                @else
-                    <span class="online-players pe-3">
-                        Server offline
-                    </span>
-                @endif
+                {{--                @if($status->online == true)--}}
+                {{--                    <span class="online-players text-success pe-3">--}}
+                {{--                        {{$status->players->online}} Spieler Online--}}
+                {{--                    </span>--}}
+                {{--                @else--}}
+                {{--                    <span class="online-players pe-3">--}}
+                {{--                        Server offline--}}
+                {{--                    </span>--}}
+                {{--                @endif--}}
+                <span class="online-players text-success pe-3">
+                    Server Online
+                </span>
                 <a href="https://www.patreon.com/spookly" class="btn btn-md btn-outline-danger">
                     <i class="fab fa-patreon"></i> Patreon
                 </a>

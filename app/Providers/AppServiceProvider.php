@@ -24,8 +24,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $client = new \GuzzleHttp\Client();
-        $status = $client->request('GET', 'https://api.mcsrvstat.us/2/spookly.de', []);
-        View::share('status', json_decode($status->getBody()));
+//        $client = new \GuzzleHttp\Client();
+//        $status = $client->request('GET', 'https://api.mcsrvstat.us/2/spookly.de', []);
+//        View::share('status', json_decode($status->getBody()));
     }
 }
