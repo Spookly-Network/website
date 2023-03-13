@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/discord', function () {
-    return redirect('https://discord.gg/m4cEJwqc6D');
+    return redirect('https://discord.gg/JbVAhd98HN');
 });
 Route::view('/','pages.landingpage');
 Route::view('/impressum', 'pages.impressum');

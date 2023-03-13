@@ -2,7 +2,7 @@
     &header- {
         &image {
             background-blend-mode: multiply;
-            background: url("/images/backgrounds/lobby-01.png"), linear-gradient(180deg, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.5) 100%) top;
+            background: url("/images/backgrounds/spookly-lobby.png"), linear-gradient(180deg, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.5) 100%) top;
             height: 30vh;
             @media screen and (min-width: $grid-breakpoint-md) {
                 height: 50vh;
@@ -171,4 +171,7 @@
 .social-icon {
     font-size: 1.3rem;
     color: white;
+    &:hover {
+        color: $brand-color;
+    }
 }

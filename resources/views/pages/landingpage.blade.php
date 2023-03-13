@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('title')
-    Zayon.de - Minigames auf eine neue art.
+    spookly.de - Minigames auf eine neue art.
 @endsection
 
 @section('content')
@@ -89,7 +89,7 @@
                     <div class="slide-content container d-flex align-items-center h-100">
                         <div>
                             <mark class="index-body-headline py-0" style="color: #FFAA00">Knock Knock</mark>
-                            <h4>Das "AHHHHHHHH", "OMG WO" und "DU *-*#*" Steckt im Namen.</h4>
+                            <h4 class="w-50">Das "AHHHHHHHH", "OMG WO" und "DU *-*#*" Steckt im Namen.</h4>
                             <a href="{{url('/gamemode/knock-knock')}}" class="btn btn-secondary btn-lg mt-5">Zu KnockKnock</a>
                         </div>
                         <img src="/images/npc-render/npc_3.png" alt="" style="position: absolute;right: -30vw;">
@@ -100,7 +100,7 @@
                     <div class="slide-content container d-flex align-items-center h-100">
                         <div>
                             <mark class="index-body-headline py-0" style="color: #00AAAA">Bingo</mark>
-                            <h4>Kennst du dich wirklich so gut aus wie dein Gehirn denkt 🤔.</h4>
+                            <h4 class="w-50">Beweise dein Minecraft wissen und Gewinne gegen deine gegner nur mit Gehirnschmalz und ein bisschen Glück.</h4>
                             <a href="{{url('/gamemode/bingo')}}" class="btn btn-secondary btn-lg mt-5">Zu Bingo</a>
                         </div>
                         <img src="/images/npc-render/npc_4.png" alt="" style="position: absolute;right: -30vw;">
@@ -111,7 +111,7 @@
                     <div class="slide-content container d-flex align-items-center h-100">
                         <div>
                             <mark class="index-body-headline py-0" style="color: #00AA00">Skywars</mark>
-                            <h4>Der gleiche Rage mit einer kleinen veränderung.</h4>
+                            <h4 class="w-50">Stelle dein Kampfgeist in schwindeleregegenden höhen zum Beweis. Sammle Equip aus Kisten und sei vorsichtig beim Bauen!</h4>
                             <a href="{{url('/gamemode/skywars')}}" class="btn btn-secondary btn-lg mt-5">Zu Skywars</a>
                         </div>
                         <img src="/images/npc-render/npc_6.png" alt="" style="position: absolute;right: -30vw;">
@@ -130,7 +130,7 @@
     <section class="container index-section-tmargin px-0 pt-5 pt-xl-0" style="margin-bottom: 25vh">
         <div class="row align-items-center">
             <div class="col-12 col-md-7 col-lg-7 ml-md-auto">
-                <h1>Zayon.de - Auch auf anderen Platformen</h1>
+                <h1>Spookly.de - Auch auf anderen Platformen</h1>
                 <p class="lead">Finde uns auf Instagramm, Twitter, Discord und alle anderen dienste wo wir unseren Socialmedia mist hochladen.
                 Auch auf Buttgram kannst du uns finden <small class="text-muted">(Also wenn du die Seite irgendwo findest sag uns bescheid, wir haben den Link Irgendwie verloren)</small>.
                 Auch auf GitHub sind wir vertreten und nehmen dort gerne eure Bugs und Feature-Requests an <br>Wir sehen uns im Netz!</p>
@@ -138,7 +138,7 @@
                 <p class="mt-2">
                     <a target="_blank" href="https://twitter.com/zayonde" class="mx-2 social-icon"><i
                             class="fab fa-twitter" aria-hidden="true"></i></a>
-                    <a target="_blank" href="https://discord.gg/3nAPaZg" class="mx-2 social-icon"><i
+                    <a target="_blank" href="https://discord.gg/JbVAhd98HN" class="mx-2 social-icon"><i
                             class="fab fa-discord" aria-hidden="true"></i></a>
                     <a target="_blank" href="https://www.instagram.com/zayonde" class="mx-2 social-icon"><i
                             class="fab fa-instagram" aria-hidden="true"></i></a>
@@ -153,6 +153,6 @@
         </div>
     </section>
 
-    <img src="/images/npc-render/npc_07.png" alt="" class="npc-hello">
+{{--    <img src="/images/npc-render/npc_07.png" alt="" class="npc-hello">--}}
 
 @endsection

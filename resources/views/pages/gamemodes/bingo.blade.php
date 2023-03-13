@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('title')
-    Zayon.de - Minigames auf eine neue art.
+    Spiele Bingo - Spookly.de
 @endsection
 
 @section('content')
@@ -19,14 +19,14 @@
             <div class="slide-content container d-flex align-items-center h-100">
                 <div>
                     <mark class="index-body-headline py-0" style="color: #00AAAA">Bingo</mark>
-                    <h4>Lorem Ipsum Dolor sit amet</h4>
+                    <h4 class="w-50">Beweise dein Minecraft wissen und Gewinne gegen deine gegner nur mit Gehirnschmalz und ein bisschen Glück.</h4>
                 </div>
                 <img src="/images/npc-render/npc_4.png" alt="" style="position: absolute;right: -30vw;">
             </div>
         </div>
     </section>
 
-    <section class="index-section-tpadding bg-dark w-100" style="padding-bottom:1vh">
+    <section class="index-section-tpadding bg-dark w-100 pt-5" style="padding-bottom:1vh">
         <div class="container">
         <div class="row">
             <div class="col-12">

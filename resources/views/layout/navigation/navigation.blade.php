@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4" style="z-index: 100">
     <div class="container">
         <a class="navbar-brand d-block d-lg-none me-auto" href="/">
-            <img src="{{ asset('/images/logo/logo-white.png') }}" alt="" width="150px">
+            <img src="{{ asset('/images/logo/spookly-logo.png') }}" alt="" width="150px">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
                 aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,7 +9,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <a class="navbar-brand d-none d-lg-block" href="/">
-                <img src="{{ asset('/images/logo/logo-white.png') }}" alt="" width="150px">
+                <img src="{{ asset('/images/logo/spookly-logo.png') }}" alt="" width="150px">
             </a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
@@ -44,7 +44,7 @@
                         Server offline
                     </span>
                 @endif
-                <a href="https://www.patreon.com/zayon" class="btn btn-md btn-outline-danger">
+                <a href="https://www.patreon.com/spookly" class="btn btn-md btn-outline-danger">
                     <i class="fab fa-patreon"></i> Patreon
                 </a>
             </form>

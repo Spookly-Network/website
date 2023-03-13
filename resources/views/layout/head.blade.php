@@ -26,23 +26,15 @@
 <!-- meta character set -->
     <meta charset="UTF-8">
     <!-- Site Title -->
-    <title>@yield('title', "Zayon - Minigames mal anders.")</title>
+    <title>@yield('title', "Spookly - Minigames mal anders.")</title>
 
     <!-- Fonts -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="ddd55fd8-5f48-4a40-aa7e-407ee1d5964b" data-blockingmode="auto" type="text/javascript"></script>
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="ee6dae5c-f035-40d6-b602-626796dec0e6" data-blockingmode="auto" type="text/javascript"></script>
     <script src="https://kit.fontawesome.com/22b97575b2.js" crossorigin="anonymous"></script>
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164913488-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    {{--    @yield('Json-DL', \View::make('layout.footer.json-dl'))--}}
 
-        gtag('config', 'UA-164913488-1');
-    </script>
-{{--    @yield('Json-DL', \View::make('layout.footer.json-dl'))--}}
     @yield("header-scripts")
 </head>

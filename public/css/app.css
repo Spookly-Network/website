@@ -581,7 +581,7 @@ button.swiper-pagination-bullet {
 
 @font-face {
   font-family: "Minecraft-Regular";
-  src: url(/fonts/Minecraft-Regular.ttf.woff?f3741d3a52afed63a491ecfd71b912fc) format("woff"), url(/fonts/Minecraft-Regular.ttf.svg?f09ffe1a29f42d5034376f6ff183c644) format("svg"), url(/fonts/Minecraft-Regular.ttf.eot?eccab1546a75afa0374380902cc1e496), url(/fonts/Minecraft-Regular.ttf.eot?eccab1546a75afa0374380902cc1e496) format("embedded-opentype");
+  src: url(/fonts/Minecraft-Regular.ttf.woff?f3741d3a52afed63a491ecfd71b912fc) format("woff"), url(/fonts/Minecraft-Regular.ttf.svg?1193b5744d55f48e4b6e7e1e6444f8c3) format("svg"), url(/fonts/Minecraft-Regular.ttf.eot?eccab1546a75afa0374380902cc1e496), url(/fonts/Minecraft-Regular.ttf.eot?eccab1546a75afa0374380902cc1e496) format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -592,12 +592,12 @@ button.swiper-pagination-bullet {
 .online-players {
   text-transform: uppercase;
   font-weight: bolder;
-  color: #ff756d;
+  color: #FFAA00;
 }
 
 .index-header-image {
   background-blend-mode: multiply;
-  background: url(/images/lobby-01.png?78aad0c0869c3a6e4a9df5d363077b0d), linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%) top;
+  background: url(/images/spookly-lobby.png?b16c8ff0cbe729b025514382e0bf1a74), linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%) top;
   height: 30vh;
 }
 @media screen and (min-width: 768px) {
@@ -633,7 +633,7 @@ button.swiper-pagination-bullet {
   }
 }
 .index-header-text span {
-  color: #ff756d;
+  color: #FFAA00;
 }
 .index-header-cards {
   margin-top: -10vh;
@@ -741,6 +741,9 @@ button.swiper-pagination-bullet {
   font-size: 1.3rem;
   color: white;
 }
+.social-icon:hover {
+  color: #FFAA00;
+}
 
 .container-join {
   background-image: url(/images/dirt.png?8dc2f7dea9feb647da77fa755ccc5a6c);
@@ -814,15 +817,15 @@ a .card:hover {
   border-radius: 0;
 }
 .btn.btn-danger {
-  background-color: #ff756d;
+  background-color: #FFAA00;
 }
 .btn.btn-outline-danger {
-  color: #ff756d;
-  border-color: #ff756d;
+  color: #FFAA00;
+  border-color: #FFAA00;
 }
 .btn.btn-outline-danger:hover {
   color: white;
-  background-color: #ff756d;
+  background-color: #FFAA00;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -857,5 +860,5 @@ body {
 }
 
 .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-  background-color: #ff756d;
+  background-color: #FFAA00;
 }

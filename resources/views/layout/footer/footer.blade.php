@@ -4,7 +4,7 @@
             <div class="col text-end" style="z-index: 5">
                 <a class="link-secondary disabled" href="{{url('/impressum')}}">Impressum</a>
                 <a class="link-secondary disabled" href="{{url('/datenschutz')}}">Datenschutz</a>
-                © 2019-2021 Zayon
+                © 2019-2023 Spookly
             </div>
         </div>
     </div>
