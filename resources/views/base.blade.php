@@ -3,7 +3,7 @@
 
 @yield('head', \View::make('layout.head'))
 
-<body class="bg-dark text-white">
+<body class="bg-dark text-white @yield('className')">
 <div id="app">
 @yield('header', \View::make('layout.header.header'))
 @yield('navigation', \View::make('layout.navigation.navigation'))

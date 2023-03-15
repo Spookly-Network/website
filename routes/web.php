@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Storyblok\ApiException;
 use Storyblok\Client;
 
 /*
@@ -13,10 +14,11 @@ use Storyblok\Client;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::get('/discord', function () {
     return redirect('https://discord.gg/JbVAhd98HN');
 });
-Route::view('/','pages.landingpage');
+Route::view('/', 'pages.landingpage');
 Route::view('/impressum', 'pages.impressum');
 Route::view('/datenschutz', 'pages.datenschutz');
 Route::view('/join', 'pages.join');
@@ -28,10 +30,14 @@ Route::prefix('gamemode')->group(function () {
 
 });
 
-Route::get('/{slug?}', function ($slug = 'home') {
+Route::fallback(function (\Illuminate\Http\Request $request, $slug = 'home') {
     $storyblok = new Client(config('storyblok.api_key'));
-    $storyblok->editMode(); // always enable draft mode
-    $data = $storyblok->getStoryBySlug($slug)->getBody();
-
-    return view('index', ['story' => (object) $data['story']]);
+//    $storyblok->editMode(); // always enable draft mode
+    try {
+        $data = $storyblok->getStoryBySlug($slug)->getBody();
+        return view('pages.storyblok', ['story' => (object)$data['story']]);
+    } catch (ApiException $exeption) {
+        dd($exeption);
+        abort(404);
+    }
 });

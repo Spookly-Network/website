@@ -8,12 +8,14 @@
 
 @import "pages/index";
 @import "pages/join";
+@import "pages/blog";
 
 @import "components/cards";
 @import "components/buttons";
 @import "components/typographie";
 @import "components/general";
 @import "components/dropdown";
+@import "components/material-display";
 
 body {
     font-family: 'Open Sans', sans-serif;

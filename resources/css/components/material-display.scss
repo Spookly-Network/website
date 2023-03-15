@@ -1,0 +1,17 @@
+.material-display {
+    max-width: 100%;
+    background: rgba(0,0,0,0.3);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+
+    .upper-image {
+        margin-bottom: 0.5rem;
+    }
+    .label {
+        font-weight: 500;
+    }
+}
