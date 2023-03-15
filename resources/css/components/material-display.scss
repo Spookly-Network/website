@@ -7,9 +7,17 @@
     align-items: center;
     flex-direction: column;
     padding: 1.5rem;
+    height: 240px;
 
     .upper-image {
+        width: 100%;
         margin-bottom: 0.5rem;
+
+        img {
+            min-width: 100%;
+            min-height: 100%;
+            image-rendering: pixelated;
+        }
     }
     .label {
         font-weight: 500;
