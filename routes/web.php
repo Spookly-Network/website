@@ -37,7 +37,6 @@ Route::fallback(function (\Illuminate\Http\Request $request, $slug = 'home') {
         $data = $storyblok->getStoryBySlug($slug)->getBody();
         return view('pages.storyblok', ['story' => (object)$data['story']]);
     } catch (ApiException $exeption) {
-        dd($exeption);
         abort(404);
     }
 });
