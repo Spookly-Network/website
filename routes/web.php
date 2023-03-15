@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Storyblok\Client;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,7 +29,7 @@ Route::prefix('gamemode')->group(function () {
 });
 
 Route::get('/{slug?}', function ($slug = 'home') {
-    $storyblok = new \Storyblok\Client(config('storyblok.api_key'));
+    $storyblok = new Client(config('storyblok.api_key'));
     $storyblok->editMode(); // always enable draft mode
     $data = $storyblok->getStoryBySlug($slug)->getBody();
 
