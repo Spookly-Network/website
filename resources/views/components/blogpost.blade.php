@@ -2,8 +2,15 @@
 @section('className', 'blog')
 
 @section('meta-tags')
-    <meta property="og:image" content="{{$blok["header_image"]["filename"]}}" />
+    <meta name="description" content="{{$blok["description"]}}">
     <meta property="og:title" content="{{$blok['header_text']}} - spookly.de" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{{$blok["header_image"]["filename"]}}" />
+
+    <meta name="twitter:title" content="{{$blok['header_text']}} - spookly.de">
+    <meta name="twitter:description" content="{{$blok["description"]}}">
+    <meta name="twitter:image" content="{{$blok["header_image"]["filename"]}}">
+    <meta name="twitter:card" content="summary_large_image">
 @endsection
 
 <section class="container-fluid index-header-image position-relative mb-5"
