@@ -1,9 +1,5 @@
 @extends('base')
 
-@section('title')
-    spookly.de - Minigames auf eine neue art.
-@endsection
-
 @section('content')
     <section class="container-fluid index-header-image position-relative">
         <div class="container d-flex align-bottom">
@@ -16,18 +12,19 @@
     <section class="container index-header-cards mb-5">
         <div class="row">
             <div class="col-12 col-md-4 py-2">
-                <a href="https://zayon.de/gamemode/lobby/map">
+                <a href="/blog/bingo/bingo-update-1-1-0">
                     <div class="card bg-dark text-white">
-                        <img src="/images/cards/dynmap.png" class="card-img" alt="...">
+                        <img src="https://a.storyblok.com/f/206712/1920x1009/f2030a3474/2023-03-15_22-27-51.png" class="card-img" alt="...">
                         <div class="card-img-overlay">
                             <div class="card-body pb-0">
-                                <h5 class="card-title">Endecke unsere Lobby</h5>
-                                <p class="card-text text-truncate">auf unserer Interaktiven karte.</p>
+                                <h5 class="card-title">Bingo Update</h5>
+                                <p class="card-text text-truncate">Alles über das neue Update.</p>
                             </div>
                         </div>
                     </div>
                 </a>
             </div>
+            <!--
             <div class="col-12 col-md-4 py-2">
                 <a href="">
                     <div class="card bg-dark text-white">
@@ -60,6 +57,7 @@
                     </div>
                 </a>
             </div>
+            -->
         </div>
     </section>
 

@@ -12,12 +12,14 @@
         align-items: flex-end;
     }
     .card-title {
+        text-shadow: 0 0 5px hsl(0deg 0% 0% / 50%);
         text-transform: uppercase;
         font-weight: bolder;
         font-size: 1.3rem;
     }
     .card-body {
         max-width: 100%;
+        text-shadow: 0 0 5px hsl(0deg 0% 0% / 50%);
     }}
 
 a .card {

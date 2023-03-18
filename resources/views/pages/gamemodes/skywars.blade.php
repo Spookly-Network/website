@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('title')
-    Spiele Skywars - Spookly.de
+    Spiele Skywars
 @endsection
 
 @section('content')

@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('title')
-    Spiele Bingo - Spookly.de
+    Spiele Bingo
 @endsection
 
 @section('content')

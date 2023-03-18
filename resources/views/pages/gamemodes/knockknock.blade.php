@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('title')
-    Spiele KnockKnock - Spookly.de
+    Spiele KnockKnock
 @endsection
 
 @section('content')

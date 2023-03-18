@@ -1,6 +1,6 @@
 @extends('base')
 @section('title')
-    {{ $story->name }} | Spookly.de
+    {{ $story->name }}
 @endsection
 @section('content')
     <body class="antialiased">

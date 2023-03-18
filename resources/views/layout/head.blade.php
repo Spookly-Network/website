@@ -26,7 +26,7 @@
 <!-- meta character set -->
     <meta charset="UTF-8">
     <!-- Site Title -->
-    <title>@yield('title', "Spookly - Minigames mal anders.")</title>
+    <title>@yield('title', "Minigames mal anders") | Spookly.de</title>
 
     <!-- Fonts -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
