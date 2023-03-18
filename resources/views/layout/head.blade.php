@@ -21,7 +21,6 @@
     <meta name="theme-color" content="#ffffff">
     <!-- Author Meta -->
     <meta name="author" content="Niklas Ehlen">
-{{--    <meta name="keywords" content="Webspaces,Gameserver,PrePaid,zayon.de,Hosting,Zayon,Minecraft,Webhosting,Templates,Teamspeak,RAGEMP,GTAV,Rage Multiplayer">--}}
     @yield("meta-tags",  \View::make('layout.head.meta'))
 <!-- meta character set -->
     <meta charset="UTF-8">
